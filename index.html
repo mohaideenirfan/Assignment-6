@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>GRADE CALCULATOR</nav>
+
+    <div class="container">
+        <h1>Calculate Your Grade</h1>
+        <p>Enter your marks for five subjects:</p>
+        
+        <input type="number" id="subject1" placeholder="Tamil">
+        <input type="number" id="subject2" placeholder="English">
+        <input type="number" id="subject3" placeholder="Maths">
+        <input type="number" id="subject4" placeholder="Science">
+        <input type="number" id="subject5" placeholder="Computer">
+        
+        <button onclick="calculateGrade()">Calculate Grade</button>
+        
+        <div class="result">
+            <p id="totalMarks"></p>
+            <p id="averageMarks"></p>
+            <p id="grade"></p>
+        </div>
+    </div>
+
+    <footer>&copy; Mohaideen Irfan 2025. All rights reserved.</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
