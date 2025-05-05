@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background:url('assets/imag.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: rgba(0, 140, 186, 0.9);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 1.2em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.container {
+    max-width: 700px; 
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    border: none;
+    border-bottom: 2px solid #008CBA;
+    outline: none; 
+    margin: 15px 0;
+}
+button {
+    font-size: 1.3em;
+    padding: 15px;
+}
+.result p {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+button {
+    background: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005f73;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+    background:url('assets/imag.jpeg') no-repeat center center fixed;
+}
+@media screen and (max-width: 1100px) {
+    .container {
+        width: 90%;
+    }
+    background:url('assets/imag.jpeg') no-repeat center center fixed;
+}
